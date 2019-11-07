@@ -9,7 +9,7 @@ public class StateAlarm extends StateAdapter {
 
     int hour = 00;
     int minute =00;
-    public String alarmTime;
+    String alarmTime;
     CountDownTimer alarmTimer;
 
 
@@ -22,26 +22,6 @@ public class StateAlarm extends StateAdapter {
 
     @Override
     public void onExitState(final ContextClockradio context) {
-        context.ui.turnOnTextBlink();
-
-        alarmTimer = new CountDownTimer((3600000 * 24), 60000) {
-
-            String alarmTime = hour + ";" + minute;
-
-            @Override
-            public void onTick(long millisUntilFinished) {
-                String currentTime = context.getTime().toString().substring(11, 16);
-
-                if (currentTime == alarmTime) {
-                    alarmTimer.onFinish();
-                }
-            }
-
-            @Override
-            public void onFinish() {
-                context.setState(new StateAlarmUnmuted());
-            }
-        };
     }
 
     @Override
@@ -83,8 +63,22 @@ public class StateAlarm extends StateAdapter {
     }
 
     @Override
-    public void onClick_AL1(ContextClockradio context) {
+    public void onClick_AL1(final ContextClockradio context) {
         context.ui.turnOffTextBlink();
 
+        alarmTime = hour + "" + minute;
+
+        if (hour < 10) {
+            alarmTime = "0"+hour + ":" + minute;
+        }
+
+        if (minute < 10) {
+            alarmTime = hour + ":0" + minute;
+        }
+
+        if (hour < 10 && minute < 10) {
+            alarmTime = "0" + hour + ":0" + minute;
+        }
+        context.setState(new StateAlarmUnmuted(alarmTime));
     }
 }

@@ -50,6 +50,4 @@ public class StateSleep extends StateAdapter {
         }
         idleTime.start();
     }
-
-
 }
