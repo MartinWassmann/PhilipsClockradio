@@ -13,9 +13,9 @@
         android:layout_marginStart="140dp"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="260dp"
-        android:text="Y"
+        android:text="y"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonZ"
@@ -24,9 +24,9 @@
         android:layout_marginStart="188dp"
         android:layout_marginLeft="188dp"
         android:layout_marginTop="260dp"
-        android:text="Z"
+        android:text="z"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonAA"
@@ -35,9 +35,9 @@
         android:layout_marginStart="340dp"
         android:layout_marginLeft="340dp"
         android:layout_marginTop="260dp"
-        android:text="Å"
+        android:text="å"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonAE"
@@ -46,9 +46,9 @@
         android:layout_marginStart="240dp"
         android:layout_marginLeft="240dp"
         android:layout_marginTop="260dp"
-        android:text="Æ"
+        android:text="æ"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonV"
@@ -57,9 +57,9 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="260dp"
-        android:text="V"
+        android:text="v"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonX"
@@ -68,9 +68,9 @@
         android:layout_marginStart="88dp"
         android:layout_marginLeft="88dp"
         android:layout_marginTop="260dp"
-        android:text="X"
+        android:text="x"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonOE"
@@ -79,9 +79,9 @@
         android:layout_marginStart="288dp"
         android:layout_marginLeft="288dp"
         android:layout_marginTop="260dp"
-        android:text="Ø"
+        android:text="ø"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonQ"
@@ -90,9 +90,9 @@
         android:layout_marginStart="140dp"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="204dp"
-        android:text="Q"
+        android:text="q"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonR"
@@ -101,9 +101,9 @@
         android:layout_marginStart="188dp"
         android:layout_marginLeft="188dp"
         android:layout_marginTop="204dp"
-        android:text="R"
+        android:text="r"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonU"
@@ -112,9 +112,9 @@
         android:layout_marginStart="340dp"
         android:layout_marginLeft="340dp"
         android:layout_marginTop="204dp"
-        android:text="U"
+        android:text="u"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonS"
@@ -123,9 +123,9 @@
         android:layout_marginStart="240dp"
         android:layout_marginLeft="240dp"
         android:layout_marginTop="204dp"
-        android:text="S"
+        android:text="s"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonO"
@@ -134,9 +134,9 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="204dp"
-        android:text="O"
+        android:text="o"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonP"
@@ -145,9 +145,9 @@
         android:layout_marginStart="88dp"
         android:layout_marginLeft="88dp"
         android:layout_marginTop="204dp"
-        android:text="P"
+        android:text="p"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonT"
@@ -156,9 +156,9 @@
         android:layout_marginStart="288dp"
         android:layout_marginLeft="288dp"
         android:layout_marginTop="204dp"
-        android:text="T"
+        android:text="t"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonI"
@@ -167,9 +167,9 @@
         android:layout_marginStart="88dp"
         android:layout_marginLeft="88dp"
         android:layout_marginTop="148dp"
-        android:text="I"
+        android:text="i"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonK"
@@ -178,9 +178,9 @@
         android:layout_marginStart="188dp"
         android:layout_marginLeft="188dp"
         android:layout_marginTop="148dp"
-        android:text="K"
+        android:text="k"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonN"
@@ -189,9 +189,9 @@
         android:layout_marginStart="340dp"
         android:layout_marginLeft="340dp"
         android:layout_marginTop="148dp"
-        android:text="N"
+        android:text="n"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonL"
@@ -200,9 +200,9 @@
         android:layout_marginStart="240dp"
         android:layout_marginLeft="240dp"
         android:layout_marginTop="148dp"
-        android:text="L"
+        android:text="l"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonJ"
@@ -211,9 +211,9 @@
         android:layout_marginStart="140dp"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="148dp"
-        android:text="J"
+        android:text="j"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonM"
@@ -222,9 +222,9 @@
         android:layout_marginStart="288dp"
         android:layout_marginLeft="288dp"
         android:layout_marginTop="148dp"
-        android:text="M"
+        android:text="m"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonH"
@@ -233,9 +233,9 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="148dp"
-        android:text="H"
+        android:text="h"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonG"
@@ -244,9 +244,9 @@
         android:layout_marginStart="340dp"
         android:layout_marginLeft="340dp"
         android:layout_marginTop="96dp"
-        android:text="G"
+        android:text="g"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonF"
@@ -255,9 +255,9 @@
         android:layout_marginStart="290dp"
         android:layout_marginLeft="290dp"
         android:layout_marginTop="96dp"
-        android:text="F"
+        android:text="f"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonE"
@@ -266,9 +266,9 @@
         android:layout_marginStart="240dp"
         android:layout_marginLeft="240dp"
         android:layout_marginTop="96dp"
-        android:text="E"
+        android:text="e"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonD"
@@ -277,9 +277,9 @@
         android:layout_marginStart="190dp"
         android:layout_marginLeft="190dp"
         android:layout_marginTop="96dp"
-        android:text="D"
+        android:text="d"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonC"
@@ -288,9 +288,9 @@
         android:layout_marginStart="140dp"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="96dp"
-        android:text="C"
+        android:text="c"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <Button
         android:id="@+id/buttonB"
@@ -299,19 +299,20 @@
         android:layout_marginStart="90dp"
         android:layout_marginLeft="90dp"
         android:layout_marginTop="96dp"
-        android:text="B"
+        android:text="b"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/buttonVelkommen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Velkommen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
 
     <Button
         android:id="@+id/buttonA"
@@ -320,8 +321,30 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="96dp"
-        android:text="A"
+        android:text="a"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="24dp"
+        android:text="Start spillet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonVelkommen" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVelkommen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/galge" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
